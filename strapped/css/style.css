@@ -1,0 +1,57 @@
+#landing{
+  background: url(/img/bg.jpeg) no-repeat;
+  background-size: cover;
+  color: ghostwhite;
+  height: 100vh;
+  position: relative; 
+}
+
+#title{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  width: 50%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+section{
+  padding: 1em 3em;
+}
+
+#contact{
+  text-align: center;
+  padding: 15px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-container {
+  padding: 2px 16px;
+}
+
+i{
+  color: #363636;
+}
